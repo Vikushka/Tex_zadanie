@@ -64,7 +64,7 @@ namespace Tex_zadanie.Buttons
 
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void Button_Click_2(object sender, RoutedEventArgs e) // отмена 
         {
              MainWindow mainWindow = new MainWindow();
             Close();
