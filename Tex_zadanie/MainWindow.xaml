@@ -32,9 +32,9 @@
             </ListBox>
         </ScrollViewer>
         <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" >
-            <Button  Click="Button_Click"  Content="Добавить"  Height="40" Width="200" Margin="5"/>
-            <Button  Click="Button_Click_1" Content="Редактировать" Height="40" Width="200" Margin="5"/>
-            <Button  Click="Button_Click_2"  Content="Удалить" Height="40" Width="200" Margin="5"/>
+            <Button  Click="Button_Click"  Content="Добавить" Background="MediumPurple" Height="40" Width="200" Margin="5"/>
+            <Button  Click="Button_Click_1" Content="Редактировать" Background="MediumPurple" Height="40" Width="200" Margin="5"/>
+            <Button  Click="Button_Click_2"  Content="Удалить" Background="MediumPurple" Height="40" Width="200" Margin="5"/>
         </StackPanel>
 
     </Grid>

@@ -64,5 +64,11 @@ namespace Tex_zadanie.Buttons
 
         }
 
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+             MainWindow mainWindow = new MainWindow();
+            Close();
+            mainWindow.ShowDialog();
+        }
     }
 }   

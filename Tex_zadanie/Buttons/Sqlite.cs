@@ -9,11 +9,9 @@ namespace Tex_zadanie.Buttons
 {
     internal class Sqlite : DatabaseContext
     {
-        public object Product { get; internal set; }
-
-        internal void SaveChanges()
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            throw new NotImplementedException();
+            optionsBuilder.UseSqlite("Data Source=ProductCards.db");
         }
     }
 
